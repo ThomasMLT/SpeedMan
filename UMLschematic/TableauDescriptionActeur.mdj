@@ -1,0 +1,145 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGcJIhL4x+eU0U=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 48,
+							"top": 88,
+							"width": 240,
+							"height": 113,
+							"text": "JOUEUR\n\n",
+							"horzAlign": 2
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGcJIk+Hh+oRoU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 288,
+							"top": 88,
+							"width": 240,
+							"height": 113,
+							"text": "JOUEUR SERVEUR",
+							"horzAlign": 2
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGcJIpEWx+uwsQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 88,
+							"width": 240,
+							"height": 113,
+							"text": "DEVELOPPEUR",
+							"horzAlign": 2
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGcJIr3fB+3tcE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 128,
+							"width": 248,
+							"height": 73
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGcJIsyNh+6OMI=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 48,
+							"top": 112,
+							"width": 240,
+							"height": 90,
+							"text": "Utilisateur principal qui interagit avec le jeu en mode Solo ou participe à une LAN. Son objectif est l'entraînement technique et la performance (speedrun) pour obtenir les meilleurs temps sur les différentes cartes."
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGcJItijB++QtE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 288,
+							"top": 104,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGcJIt8Ox/BFGE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 104,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGcJIyFBh/OT/Y=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 288,
+							"top": 112,
+							"width": 240,
+							"height": 90,
+							"text": "Joueur agissant comme Hôte (Host). En plus de jouer, il héberge une session en réseau local (LAN), permettant l'aspect compétitif et social du jeu. Il gère l'instance de la partie pour les autres."
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGcJIzfWh/WZFA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 112,
+							"width": 240,
+							"height": 89,
+							"text": "Acteur de maintenance et d'évolution. Il intervient sur le système pour créer de nouvelles cartes, ajuster la physique du jeu (équilibrage) et corriger les bugs remontés par les joueurs."
+						}
+					]
+				}
+			]
+		}
+	]
+}
